@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML</title>
+</head>
+<body>
+    <h1>Videos com hospedagem local</h1>
+    <video controls poster="imagens/Thumb-cavalo.png" width="300">
+        <source src="midias/cavalo.mp4" type="video/mp4">
+        <source src="midias/Cavalo.mkv" type="video/mkv">
+        <source src="midias/Cavalo.webm" type="video/webm">
+    </video>
+    <p>Seu navegador não suporta reprodução de videos. <a href="midias/cavalo.mp4" download="cavalo.mp4">Baixe aqui</a> para assitir</p>
+    <h1>Inserindo videos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/FdE5G95B7Mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/658536943?h=d53f23add7&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

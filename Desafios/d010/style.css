@@ -1,0 +1,129 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+    font-family: android;
+    src: url(fontes/idroid.otf);
+}
+
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+}
+header{
+    width: auto;
+    height: 200px;
+    margin-top: -31px;
+    background-image:linear-gradient(to bottom, #3AE080, #0b2e1a)
+}
+header > h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 45px;
+    color: white;
+    text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.74);
+    text-align: center;
+}
+header > div{
+    text-align: center;
+    margin: auto;
+    width: 410px;
+    color: white;
+}
+nav{
+    margin: 40px 10px;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+nav > a:hover{
+    background-color: #3AE080;
+    border-radius: 4px;
+    padding: 5px;
+}
+article{
+    background-color: white;
+    margin: -23px auto;
+    width: 700px;
+    height:max-content;
+    border-radius: 0px 0px 10px 10px;
+}
+article > h1{
+    padding: 30px 20px 0px 20px;
+    font-size: 28px;
+    font-family:'android' ;
+    color: #205F3D;
+}
+article > p{
+    padding: 0px 20px 20px 20px;
+    text-align: justify;
+    text-indent: 40px;
+
+}
+article > h2{
+    font-family: 'android';
+    margin: 30px;
+    padding: 0px 8px;
+    background-image: linear-gradient(to left,white, #3ae07f8a);
+    color: #205F3D;
+}
+.destaque{
+    color: #16a75a;
+    font-weight: bold;
+}
+article > img{
+    width: 700px
+}
+.destaque::after{
+    content: '🔗';
+}
+#bugdroid{
+    width: 300px;
+    height: 175px;
+    margin: auto 200px;
+}
+iframe{
+margin: 25px;
+}
+article > div{
+    background-color: #0b2e1a;
+}
+footer > section{
+    text-align: center;
+    color: white;
+    background-color: #0b2e1a;
+    margin: 35px auto auto auto;
+    height: 25px;
+}
+span{
+    font-weight: bold;
+}
+h3{
+    background-color: #16a75a;
+    height: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;  
+    border-radius: 10px 10px 0px 0px ;
+}
+section{
+    margin: 20px;
+    background-color: #C5EBD6;
+    height: 450px;
+    border-radius: 0px 0px 10px 10px;
+}
+section > p{
+    padding: 10px;
+}
+.sublinhado{
+    text-decoration: underline;
+    font-weight: normal;
+}
+li::before{
+    content: '✓';
+}
+#mina{
+    width: 650px;
+    padding: 25px;
+}
