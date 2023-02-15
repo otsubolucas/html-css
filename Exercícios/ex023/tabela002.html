@@ -10,31 +10,46 @@
             font-family: Arial, Helvetica, sans-serif;
         }
         table{
+            position: relative;
             width: 400px;
             border-collapse: collapse;
         }
+        caption{
+            background-color:lightgray;
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 5px;
+        }
         thead{
-            background-color: lightgrey;
+            background-color: rgb(143, 142, 142);
+            position: sticky;
+            top: -1px;
         }
         td, th{
             border: 1px solid black;
             padding: 8px;
         }
+        tbody > tr:nth-child(odd){
+            background-color: lightgray;
+        }
         .numero{
             text-align: right;
         }
         tfoot{
-            background-color: lightgrey;
+            background-color: rgb(136, 135, 135);
         }
     </style>
 </head>
 <body>
     <h1>Tabela de População do Brasil</h1>
     <table>
+        <caption>
+             População por Unidade Federativa
+        </caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
             </tr>
         </thead>
         <tbody>
@@ -149,10 +164,26 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="numero"><strong>210.147.215</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure illum dignissimos, unde facere rem. Dolor molestias recusandae, cupiditate ad voluptates amet neque illo? Natus quasi quisquam consectetur praesentium aliquid.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis ipsam blanditiis hic voluptate odio dolorem, minima, quasi excepturi ducimus eveniet at aut ut harum, ea ab natus explicabo incidunt.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam molestias quis nemo commodi, culpa eius distinctio a, minus, optio assumenda quibusdam quaerat ipsam consectetur vel alias magni delectus. In, quae? lorenm
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolorum sapiente praesentium cum nobis et adipisci illo laudantium, iure veritatis reprehenderit alias animi error commodi ipsum dolorem corrupti labore a!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure illum dignissimos, unde facere rem. Dolor molestias recusandae, cupiditate ad voluptates amet neque illo? Natus quasi quisquam consectetur praesentium aliquid.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis ipsam blanditiis hic voluptate odio dolorem, minima, quasi excepturi ducimus eveniet at aut ut harum, ea ab natus explicabo incidunt.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam molestias quis nemo commodi, culpa eius distinctio a, minus, optio assumenda quibusdam quaerat ipsam consectetur vel alias magni delectus. In, quae? lorenm
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolorum sapiente praesentium cum nobis et adipisci illo laudantium, iure veritatis reprehenderit alias animi error commodi ipsum dolorem corrupti labore a!
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure illum dignissimos, unde facere rem. Dolor molestias recusandae, cupiditate ad voluptates amet neque illo? Natus quasi quisquam consectetur praesentium aliquid.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis ipsam blanditiis hic voluptate odio dolorem, minima, quasi excepturi ducimus eveniet at aut ut harum, ea ab natus explicabo incidunt.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam molestias quis nemo commodi, culpa eius distinctio a, minus, optio assumenda quibusdam quaerat ipsam consectetur vel alias magni delectus. In, quae? lorenm
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolorum sapiente praesentium cum nobis et adipisci illo laudantium, iure veritatis reprehenderit alias animi error commodi ipsum dolorem corrupti labore a!
+        </p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure illum dignissimos, unde facere rem. Dolor molestias recusandae, cupiditate ad voluptates amet neque illo? Natus quasi quisquam consectetur praesentium aliquid.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis ipsam blanditiis hic voluptate odio dolorem, minima, quasi excepturi ducimus eveniet at aut ut harum, ea ab natus explicabo incidunt.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam molestias quis nemo commodi, culpa eius distinctio a, minus, optio assumenda quibusdam quaerat ipsam consectetur vel alias magni delectus. In, quae? lorenm
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolorum sapiente praesentium cum nobis et adipisci illo laudantium, iure veritatis reprehenderit alias animi error commodi ipsum dolorem corrupti labore a!
+            </p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure illum dignissimos, unde facere rem. Dolor molestias recusandae, cupiditate ad voluptates amet neque illo? Natus quasi quisquam consectetur praesentium aliquid.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis ipsam blanditiis hic voluptate odio dolorem, minima, quasi excepturi ducimus eveniet at aut ut harum, ea ab natus explicabo incidunt.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam molestias quis nemo commodi, culpa eius distinctio a, minus, optio assumenda quibusdam quaerat ipsam consectetur vel alias magni delectus. In, quae? lorenm
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolorum sapiente praesentium cum nobis et adipisci illo laudantium, iure veritatis reprehenderit alias animi error commodi ipsum dolorem corrupti labore a!
+                </p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint iure illum dignissimos, unde facere rem. Dolor molestias recusandae, cupiditate ad voluptates amet neque illo? Natus quasi quisquam consectetur praesentium aliquid.lorem Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione officiis ipsam blanditiis hic voluptate odio dolorem, minima, quasi excepturi ducimus eveniet at aut ut harum, ea ab natus explicabo incidunt.lorem Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam molestias quis nemo commodi, culpa eius distinctio a, minus, optio assumenda quibusdam quaerat ipsam consectetur vel alias magni delectus. In, quae? lorenm
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores dolorum sapiente praesentium cum nobis et adipisci illo laudantium, iure veritatis reprehenderit alias animi error commodi ipsum dolorem corrupti labore a!
+                    </p>
+    
 </body>
 </html>
