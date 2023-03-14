@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-flow: row wrap;
+            gap: 5px;
+
+
+            width: 96vw;
+            height: 500px;
+            border: 1px solid black;
+            padding: 10px;
+        }
+        div{
+            text-align: center;
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+        }
+        div#n1{
+           background-color: palegreen; 
+            /* flex: 2 0 auto; */
+            align-self: flex-end;
+        }
+        div#n2{
+            background-color: paleturquoise;
+            /* flex: 2 0 auto; */
+            align-self: center;
+        }
+        div#n3{
+            background-color: palevioletred;
+            /* flex: 1 0 auto; */
+            align-self: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div id="n1">1</div>
+        <div id="n2">2</div>
+        <div id="n3">3</div>
+        <!-- <div id="n1">4</div>
+        <div id="n2">5</div>
+        <div id="n3">6</div>
+        <div id="n1">7</div>
+        <div id="n2">8</div>
+        <div id="n3">9</div>
+        <div id="n1">10</div>
+        <div id="n2">11</div>
+        <div id="n3">12</div> -->
+    </main>
+</body>
+</html>
